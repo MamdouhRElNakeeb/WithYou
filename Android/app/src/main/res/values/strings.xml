@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">WithYou | معاكم</string>
+
+
+    <string name="drawer_open">WithYou | معاكم</string>
+    <string name="drawer_close">WithYou | معاكم</string>
+    <string name="title_activity_podcast">PodcastActivity</string>
+    <string name="random_title" >017: موسم 1 حلقة 13: البحث عن مُرشِد</string>
+    <string name="download">تحميل</string>
+    <string name="listen">استماع</string>
+    <string name="pause">ايقاف</string>
+</resources>

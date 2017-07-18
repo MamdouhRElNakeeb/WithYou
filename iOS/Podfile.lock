@@ -1,0 +1,17 @@
+PODS:
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - SwiftyButton (0.6.0)
+
+DEPENDENCIES:
+  - SDWebImage (~> 3.8)
+  - SwiftyButton
+
+SPEC CHECKSUMS:
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  SwiftyButton: 4c9b61c499f172971a1b8c2eebbbdc20a26d8a08
+
+PODFILE CHECKSUM: b5b713d4aa15158b8ffd87439a3944cb295a032c
+
+COCOAPODS: 1.2.0

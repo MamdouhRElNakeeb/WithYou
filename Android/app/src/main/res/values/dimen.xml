@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="corner_radius">5dp</dimen>
+    <dimen name="layer_padding">7dp</dimen>
+
+
+
+    <dimen name="landing_menu_item_margin">25dp</dimen>
+    <dimen name="landing_menu_item_cornerradius">22dp</dimen>
+    <dimen name="landing_menu_item_height">68dp</dimen>
+    <dimen name="landing_menu_item_txtsize">14sp</dimen>
+    <dimen name="landing_menu_item_txtmargin">3dp</dimen>
+    <dimen name="landing_menu_row_margin">15dp</dimen>
+
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_pressed="true"
+        android:paddingTop="10sp">
+
+        <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="#00000000"/>
+                </shape>
+            </item>
+            <item
+                android:top="@dimen/layer_padding">
+                <shape android:shape="rectangle">
+                    <corners android:radius="@dimen/corner_radius" />
+                    <solid android:color="@color/guide" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+
+    <item
+        android:layout_marginTop="50dp">
+
+        <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+            <item>
+                <shape xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:shape="rectangle">
+                    <corners android:radius="@dimen/corner_radius" />
+                    <solid android:color="@color/guide2" />
+                </shape>
+            </item>
+
+            <item android:bottom="@dimen/layer_padding">
+                <shape android:shape="rectangle">
+                    <corners android:radius="@dimen/corner_radius" />
+                    <solid android:color="@color/guide" />
+                </shape>
+            </item>
+        </layer-list>
+
+    </item>
+</selector>

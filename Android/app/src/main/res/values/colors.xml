@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#35106b</color>
+    <color name="colorPrimaryDark">#220749</color>
+    <color name="colorAccent">#fcb041</color>
+
+
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="red">#FF0000</color>
+    <color name="orange">#fcb041</color>
+    <color name="green">#4CAF50</color>
+    <color name="grey">#e6e6e6</color>
+    <color name="dark_grey">#7e7d7d</color>
+
+
+    <color name="transparent">#00ffffff</color>
+
+
+    <color name="podcast">#e47501</color>
+    <color name="guide">#59d863</color>
+    <color name="library">#f8e648</color>
+    <color name="articles">#ad5ce9</color>
+    <color name="school">#3ebec9</color>
+    <color name="videos">#d86b68</color>
+
+    <color name="login">#1abc9c</color>
+    <color name="register">#2ecc71</color>
+
+    <color name="fb">#3498db</color>
+    <color name="sms">#34495e</color>
+    <color name="email">#e74c3c</color>
+
+    <color name="podcast2">#944c00</color>
+    <color name="guide2">#2e9136</color>
+    <color name="library2">#afa11f</color>
+    <color name="articles2">#7332a3</color>
+    <color name="school2">#218189</color>
+    <color name="videos2">#963937</color>
+
+    <color name="login2">#16a085</color>
+    <color name="register2">#27ae60</color>
+
+    <color name="fb2">#2980b9</color>
+    <color name="sms2">#2c3e50</color>
+    <color name="email2">#c0392b</color>
+</resources>
