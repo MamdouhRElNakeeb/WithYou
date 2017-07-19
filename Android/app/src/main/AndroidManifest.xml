@@ -24,11 +24,14 @@
         <activity
             android:name=".activity.PodcastActivity"
             android:label="@string/title_activity_podcast"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
 
         <service
             android:name=".service.DownloadService"
-            android:exported="false"></service>
+            android:exported="false">
+
+        </service>
     </application>
 
 </manifest>

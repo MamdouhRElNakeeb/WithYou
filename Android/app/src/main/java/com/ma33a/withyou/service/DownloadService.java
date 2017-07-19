@@ -52,8 +52,8 @@ public class DownloadService extends IntentService {
         url=intent.getStringExtra("File_Link") ;
         notificationBuilder = new NotificationCompat.Builder(this)
                 .setSmallIcon(R.drawable.ma33a_logo)
-                .setContentTitle("Download")
-                .setContentText("Downloading File")
+                .setContentTitle("Downloading Podcast")
+                .setContentText(fileName)
                 .setAutoCancel(true);
         notificationManager.notify(0, notificationBuilder.build());
 

@@ -1,5 +1,7 @@
 package com.ma33a.withyou.adapter;
 
+import android.content.Context;
+import android.graphics.Typeface;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -24,12 +26,16 @@ import butterknife.ButterKnife;
  */
 
 public class PodcastAdapter extends RecyclerView.Adapter<PodcastAdapter.PodcastViewHolder> {
+
     List<PodcastRssFeed> list;
     SendDownload sendDownload;
 
-    public PodcastAdapter(List<PodcastRssFeed> list, SendDownload sendDownload) {
+    Context context;
+
+    public PodcastAdapter(List<PodcastRssFeed> list, SendDownload sendDownload, Context context) {
         this.list=list;
         this.sendDownload=sendDownload ;
+        this.context = context;
     }
 
     @Override
@@ -52,6 +58,14 @@ public class PodcastAdapter extends RecyclerView.Adapter<PodcastAdapter.PodcastV
 
         holder.tv_title.setText(list.get(pos).getTitle());
         holder.tv_duration.setText(list.get(pos).getDuration());
+
+        Typeface face = Typeface.createFromAsset(context.getAssets(),
+                "hacen.ttf");
+
+        holder.tv_title.setTypeface(face);
+        holder.tv_listen.setTypeface(face);
+        holder.tv_pb.setTypeface(face);
+        holder.tv_download.setTypeface(face);
 
         holder.ll_download.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -101,6 +115,8 @@ public class PodcastAdapter extends RecyclerView.Adapter<PodcastAdapter.PodcastV
         TextView tv_duration ;
         @BindView(R.id.tv_listen)
         TextView tv_listen ;
+        @BindView(R.id.tv_download)
+        TextView tv_download ;
 
         public PodcastViewHolder(View itemView) {
             super(itemView);

@@ -386,7 +386,8 @@ public class Home extends AppCompatActivity {
                         mDrawerLayout.closeDrawer(Gravity.RIGHT);
                         navigationView.getMenu().getItem(4).setChecked(true);
 
-                        webIntent("https://ma33a.com/podcast");
+                        //webIntent("https://ma33a.com/podcast");
+                        startActivity(new Intent(getBaseContext(), PodcastActivity.class));
 
                         return true;
 
