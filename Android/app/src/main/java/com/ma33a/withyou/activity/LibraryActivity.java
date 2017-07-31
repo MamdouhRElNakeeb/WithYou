@@ -57,9 +57,9 @@ public class LibraryActivity extends AppCompatActivity implements BookFunctions 
     private void initRecycler() {
         rv_library.setLayoutManager(new LinearLayoutManager(this));
         List<Book> list=new ArrayList<>();
-        list.add(new Book("Hello","120","e.epub","https://github.com/FolioReader/FolioReader-Android/blob/master/sample/src/main/assets/PhysicsSyllabus.epub?raw=true"));
-        list.add(new Book("The Silver Chair.epub","130","a.epub","https://github.com/FolioReader/FolioReader-Android/blob/master/sample/src/main/assets/The%20Silver%20Chair.epub?raw=true"));
-        list.add(new Book("aayesha.epub","150","c.epub","https://github.com/FolioReader/FolioReader-Android/blob/master/sample/src/main/assets/aayesha.epub?raw=true"));
+        list.add(new Book("Book 1","120","e.epub","https://github.com/FolioReader/FolioReader-Android/blob/master/sample/src/main/assets/PhysicsSyllabus.epub?raw=true"));
+        list.add(new Book("Book 2","130","a.epub","https://github.com/FolioReader/FolioReader-Android/blob/master/sample/src/main/assets/The%20Silver%20Chair.epub?raw=true"));
+        list.add(new Book("Book 3","150","c.epub","https://github.com/FolioReader/FolioReader-Android/blob/master/sample/src/main/assets/aayesha.epub?raw=true"));
 
         libraryAdapter=new LibraryAdapter(list,this);
 

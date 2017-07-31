@@ -43,6 +43,8 @@ public class LibraryAdapter extends RecyclerView.Adapter<LibraryAdapter.LibraryV
         String file_name = AppConsts.path(list.get(holder.getAdapterPosition()).getFileName()) ;
         int pos = holder.getAdapterPosition();
 
+        holder.tv_title.setText(list.get(pos).getTitle());
+        holder.tv_pages.setText(list.get(pos).getPages());
         if(AppConsts.checkExist(file_name)){
             holder.btn_download.setVisibility(View.GONE);
             holder.pb.setVisibility(View.GONE);
@@ -87,6 +89,10 @@ public class LibraryAdapter extends RecyclerView.Adapter<LibraryAdapter.LibraryV
         TextView tv_download ;
         @BindView(R.id.pb_download)
         ProgressBar pb ;
+        @BindView(R.id.tv_title)
+        TextView tv_title ;
+        @BindView(R.id.tv_duration)
+        TextView tv_pages ;
 
         public LibraryViewHolder(View itemView) {
             super(itemView);
