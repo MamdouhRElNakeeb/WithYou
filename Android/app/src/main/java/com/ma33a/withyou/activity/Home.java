@@ -135,10 +135,13 @@ public class Home extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                String url = "https://ma33a.com/library";
+           /**     String url = "https://ma33a.com/library";
                 Intent i = new Intent(Intent.ACTION_VIEW);
                 i.setData(Uri.parse(url));
-                startActivity(i);
+                startActivity(i); **/
+
+                Intent intent=new Intent(Home.this,LibraryActivity.class);
+                startActivity(intent);
             }
         });
 

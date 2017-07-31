@@ -3,8 +3,8 @@
     package="com.ma33a.withyou">
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -29,9 +29,9 @@
 
         <service
             android:name=".service.DownloadService"
-            android:exported="false">
+            android:exported="false"></service>
 
-        </service>
+        <activity android:name=".activity.LibraryActivity"></activity>
     </application>
 
 </manifest>

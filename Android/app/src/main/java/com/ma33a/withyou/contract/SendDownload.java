@@ -1,4 +1,4 @@
-package com.ma33a.withyou;
+package com.ma33a.withyou.contract;
 
 import android.widget.ProgressBar;
 import android.widget.TextView;

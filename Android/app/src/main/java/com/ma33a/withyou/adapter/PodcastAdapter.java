@@ -12,7 +12,7 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import com.ma33a.withyou.R;
-import com.ma33a.withyou.SendDownload;
+import com.ma33a.withyou.contract.SendDownload;
 import com.ma33a.withyou.helper.AppConsts;
 import com.ma33a.withyou.network.model.PodcastRssFeed;
 
