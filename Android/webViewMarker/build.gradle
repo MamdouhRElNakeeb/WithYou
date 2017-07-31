@@ -1,5 +1,6 @@
 apply plugin: 'com.android.library'
 
+
 ext {
     bintrayRepo = 'maven'
     bintrayName = 'folioreader'
@@ -25,14 +26,14 @@ ext {
 }
 
 android {
-    compileSdkVersion 19
-    buildToolsVersion "23.0.3"
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
 
     defaultConfig {
-        versionCode Integer.parseInt(project.VERSION_CODE)
-        versionName project.VERSION_NAME
-        minSdkVersion Integer.parseInt(project.ANDROID_MIN_SDK)
-        targetSdkVersion Integer.parseInt(project.ANDROID_TARGET_SDK_VERSION)
+        versionCode 1
+        versionName "1.0"
+        minSdkVersion 16
+        targetSdkVersion 25
     }
 
     buildTypes {

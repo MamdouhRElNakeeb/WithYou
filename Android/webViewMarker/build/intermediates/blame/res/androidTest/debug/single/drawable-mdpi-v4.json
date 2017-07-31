@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/khaled/Desktop/Workspace/withyou/WithYou/Android/webViewMarker/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/text_select_handle_left.png",
+        "source": "/home/khaled/Desktop/Workspace/withyou/WithYou/Android/webViewMarker/build/intermediates/bundles/debug/res/drawable-mdpi-v4/text_select_handle_left.png"
+    },
+    {
+        "merged": "/home/khaled/Desktop/Workspace/withyou/WithYou/Android/webViewMarker/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/text_select_handle_right.png",
+        "source": "/home/khaled/Desktop/Workspace/withyou/WithYou/Android/webViewMarker/build/intermediates/bundles/debug/res/drawable-mdpi-v4/text_select_handle_right.png"
+    }
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/khaled/Desktop/Workspace/withyou/WithYou/Android/folioreader/build/intermediates/res/merged/androidTest/debug/menu/menu_text_selection.xml",
+        "source": "/home/khaled/Desktop/Workspace/withyou/WithYou/Android/folioreader/build/intermediates/bundles/debug/res/menu/menu_text_selection.xml"
+    },
+    {
+        "merged": "/home/khaled/Desktop/Workspace/withyou/WithYou/Android/folioreader/build/intermediates/res/merged/androidTest/debug/menu/menu_on_highlight.xml",
+        "source": "/home/khaled/Desktop/Workspace/withyou/WithYou/Android/folioreader/build/intermediates/bundles/debug/res/menu/menu_on_highlight.xml"
+    },
+    {
+        "merged": "/home/khaled/Desktop/Workspace/withyou/WithYou/Android/folioreader/build/intermediates/res/merged/androidTest/debug/menu/context_menu.xml",
+        "source": "/home/khaled/Desktop/Workspace/withyou/WithYou/Android/folioreader/build/intermediates/bundles/debug/res/menu/context_menu.xml"
+    }
+]

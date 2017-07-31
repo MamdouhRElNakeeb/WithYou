@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Android.iml" filepath="$PROJECT_DIR$/Android.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/folioreader/folioreader.iml" filepath="$PROJECT_DIR$/folioreader/folioreader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webViewMarker/webViewMarker.iml" filepath="$PROJECT_DIR$/webViewMarker/webViewMarker.iml" />
     </modules>
   </component>
 </project>

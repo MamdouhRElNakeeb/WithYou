@@ -19,6 +19,7 @@ import android.view.View;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
+import com.folioreader.activity.FolioActivity;
 import com.ma33a.withyou.R;
 import com.ma33a.withyou.adapter.LibraryAdapter;
 import com.ma33a.withyou.contract.BookFunctions;
@@ -149,10 +150,10 @@ public class LibraryActivity extends AppCompatActivity implements BookFunctions 
 
     @Override
     public void openBook(String filePath) {
-       /** Log.e("Folio",filePath);
+       Log.e("Folio",filePath);
         Intent intent = new Intent(LibraryActivity.this, FolioActivity.class);
         intent.putExtra(FolioActivity.INTENT_EPUB_SOURCE_TYPE, FolioActivity.EpubSourceType.SD_CARD);
         intent.putExtra(FolioActivity.INTENT_EPUB_SOURCE_PATH, filePath);
-        startActivity(intent);**/
+        startActivity(intent);
     }
 }

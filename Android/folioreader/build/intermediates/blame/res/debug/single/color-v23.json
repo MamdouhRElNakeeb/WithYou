@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/home/khaled/Desktop/Workspace/withyou/WithYou/Android/folioreader/build/intermediates/res/merged/debug/color-v23/abc_tint_default.xml",
+        "source": "/home/khaled/.android/build-cache/7f233759f6dc252b56b32c952ae628294a3817ae/output/res/color-v23/abc_tint_default.xml"
+    },
+    {
+        "merged": "/home/khaled/Desktop/Workspace/withyou/WithYou/Android/folioreader/build/intermediates/res/merged/debug/color-v23/abc_tint_btn_checkable.xml",
+        "source": "/home/khaled/.android/build-cache/7f233759f6dc252b56b32c952ae628294a3817ae/output/res/color-v23/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/home/khaled/Desktop/Workspace/withyou/WithYou/Android/folioreader/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_thumb.xml",
+        "source": "/home/khaled/.android/build-cache/7f233759f6dc252b56b32c952ae628294a3817ae/output/res/color-v23/abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "/home/khaled/Desktop/Workspace/withyou/WithYou/Android/folioreader/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_track.xml",
+        "source": "/home/khaled/.android/build-cache/7f233759f6dc252b56b32c952ae628294a3817ae/output/res/color-v23/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/home/khaled/Desktop/Workspace/withyou/WithYou/Android/folioreader/build/intermediates/res/merged/debug/color-v23/abc_color_highlight_material.xml",
+        "source": "/home/khaled/.android/build-cache/7f233759f6dc252b56b32c952ae628294a3817ae/output/res/color-v23/abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "/home/khaled/Desktop/Workspace/withyou/WithYou/Android/folioreader/build/intermediates/res/merged/debug/color-v23/design_tint_password_toggle.xml",
+        "source": "/home/khaled/.android/build-cache/28ba15fa878eaaea94b6799c6ae4fc4946e65a59/output/res/color-v23/design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "/home/khaled/Desktop/Workspace/withyou/WithYou/Android/folioreader/build/intermediates/res/merged/debug/color-v23/abc_tint_spinner.xml",
+        "source": "/home/khaled/.android/build-cache/7f233759f6dc252b56b32c952ae628294a3817ae/output/res/color-v23/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/home/khaled/Desktop/Workspace/withyou/WithYou/Android/folioreader/build/intermediates/res/merged/debug/color-v23/abc_tint_seek_thumb.xml",
+        "source": "/home/khaled/.android/build-cache/7f233759f6dc252b56b32c952ae628294a3817ae/output/res/color-v23/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/home/khaled/Desktop/Workspace/withyou/WithYou/Android/folioreader/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "source": "/home/khaled/.android/build-cache/7f233759f6dc252b56b32c952ae628294a3817ae/output/res/color-v23/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/home/khaled/Desktop/Workspace/withyou/WithYou/Android/folioreader/build/intermediates/res/merged/debug/color-v23/abc_tint_edittext.xml",
+        "source": "/home/khaled/.android/build-cache/7f233759f6dc252b56b32c952ae628294a3817ae/output/res/color-v23/abc_tint_edittext.xml"
+    }
+]
